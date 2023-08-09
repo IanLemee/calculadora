@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+
+        <div class="mode">
+            <button class="btn-mode"></button>
+        </div>
+
+        <section>
+
+            <div class="calculadora">
+
+                <div class="resultado">
+                    <h1>Ola mundo</h1>
+                </div>
+
+                <div class="botoes">
+
+                    <div class="row">
+
+                        <div>
+                            <button class="btn delete" data-btnNumber="">Ac</button>
+                            <button class="btn delete" data-btnNumber=""><i class="fas fa-icon-delete-left"
+                                    style="color: #858585;"></i></i></button>
+                            <button class="btn operadores" data-btnOperador="X">/</button>
+                        </div>
+                        <div>
+                            <button class="btn numero" data-btnOperador="+">7</button>
+                            <button class="btn numero" data-btnOperador="-">8</button>
+                            <button class="btn numero">9</button>
+                        </div>
+                        <div>
+                            <button class="btn numero">4</button>
+                            <button class="btn numero">5</button>
+                            <button class="btn numero">6</button>
+                        </div>
+                        <div>
+                            <button class="btn numero">1</button>
+                            <button class="btn numero">2</button>
+                            <button class="btn numero">3</button>
+                        </div>
+                        <div>
+                            <button class="btn numero zero">0</button>
+                            <button class="btn numero">.</button>
+                        </div>
+
+
+                    </div>
+
+                    <div class="collum">
+                        <button class="btn operadores">*</button>
+                        <button class="btn operadores">-</button>
+                        <button class="btn operadores">+</button>
+                        <button class="btn igual">=</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
